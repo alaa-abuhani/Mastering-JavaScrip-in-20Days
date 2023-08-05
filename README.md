@@ -1,1 +1,1 @@
-# Mastering-JavaScrip-in-20Days
+# Mastering-JavaScript-in-20Days
