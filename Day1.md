@@ -22,4 +22,10 @@ document.title
 document.body.children
 document.querySelectorAll(".square").length
 ```
+1-#compound-assignment-with-augmented-multiplication
+```
+a *= 5;
+b *= 3 ;
+c *=  10;
+```
 
