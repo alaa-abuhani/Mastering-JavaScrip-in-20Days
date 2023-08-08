@@ -28,7 +28,7 @@ a *= 5;
 b *= 3 ;
 c *=  10;
 ```
-2-basic-javascript/concatenating-strings-with-the-plus-equals-operator
+2-#concatenating-strings-with-the-plus-equals-operator
 ```
 let myStr = "This is the first sentence.";
 myStr += " This is the second sentence."
