@@ -33,4 +33,11 @@ c *=  10;
 let myStr = "This is the first sentence.";
 myStr += " This is the second sentence."
 ```
+3-#basic-javascript/use-bracket-notation-to-find-the-nth-to-last-character-in-a-string
+
+```
+const secondToLastLetterOfLastName = lastName[lastName.length - 2];
+
+```
+
 
