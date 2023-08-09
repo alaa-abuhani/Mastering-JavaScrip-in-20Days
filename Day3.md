@@ -81,4 +81,39 @@ return "No such contact"
 
 lookUpProfile("Akira", "likes");
 ```
+4 #write-reusable-javascript-with-functions
+```
+function reusableFunction(){
+  console.log("Hi World");
+}
+reusableFunction()
+```
+5# understanding-undefined-value-returned-from-a-function
+
+```
+// Setup
+let sum = 0;
+
+function addThree() {
+  sum = sum + 3;
+}
+
+// Only change code below this line
+function addFive() {
+  sum = sum + 5;
+}
+
+// Only change code above this line
+
+addThree();
+addFive();
+```
+6 # return-a-value-from-a-function-with-return
+```
+function timesFive(num) {
+  return num * 5;
+}
+
+const answer = timesFive(5);
+```
 
