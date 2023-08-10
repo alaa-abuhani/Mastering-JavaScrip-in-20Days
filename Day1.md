@@ -22,6 +22,7 @@ document.title
 document.body.children
 document.querySelectorAll(".square").length
 ```
+DELIVERABLES
 1-#compound-assignment-with-augmented-multiplication
 ```
 a *= 5;
