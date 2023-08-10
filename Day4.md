@@ -1,9 +1,35 @@
+i learn :
+* function with no  return value will return undefine
+* syntax of Arrow function  it useful for simple  function
+```
+const square = (x) => x*x;  
+```
+* scope refers to the visibility of variables :
+global scope : Variables which are defined outside of a function block have
+function scope || narrower scope :Variables which are defined inside of a function block
 
+* Variables declared with let can be modified from within a narrower scope
+in this example the reference is only change
+```
+let feeling = "happy";
 
+function myfeel() {
+    feeling = "sad";
+}
+myfeel();
+console.log(feeling);
+```
+* var and let can be-assignable 
+* synatx of addEventListener , when the user clicks somewhere on the page, a click event is fired 
 
-
+ ```
+document.addEventListener("click", () => {
+    console.log("clicked")
+});
+```
 
 DELIVERABLES
+
 
 1 # global-scope-and-functions
 
