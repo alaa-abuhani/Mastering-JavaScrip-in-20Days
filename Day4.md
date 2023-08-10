@@ -55,7 +55,7 @@ const outerWear = "sweater";
 myOutfit();
 
 ```
-4 #stand-in-line
+4 # stand-in-line
 
 ```
 function nextInLine(arr, item) {
