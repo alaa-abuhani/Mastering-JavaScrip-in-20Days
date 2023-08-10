@@ -5,6 +5,7 @@ i learn :
 const square = (x) => x*x;  
 ```
 * scope refers to the visibility of variables :
+
 global scope : Variables which are defined outside of a function block have
 function scope || narrower scope :Variables which are defined inside of a function block
 
