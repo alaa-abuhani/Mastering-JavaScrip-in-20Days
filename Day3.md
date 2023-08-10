@@ -1,8 +1,11 @@
 *javascript have primitive data type are immutable
 
 -string
+
 -number
+
 -boolean
+
 
 *javascript have object data type and array is special kind of object
 
