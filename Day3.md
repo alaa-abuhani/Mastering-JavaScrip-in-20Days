@@ -1,4 +1,4 @@
-*javascript have primitive data type are immutable
+* javascript have primitive data type are immutable
 
 -string
 
@@ -7,15 +7,15 @@
 -boolean
 
 
-*javascript have object data type and array is special kind of object
+* javascript have object data type and array is special kind of object
 
-*object and array mutable
+* object and array mutable
 
-*immutable variables can assign to mutable value
+* immutable variables can assign to mutable value
 
 
 
-1# basic-data-structures/copy-array-items-using-slice
+1 # basic-data-structures/copy-array-items-using-slice
 ```
 function forecast(arr) {
   // Only change code below this line
@@ -26,7 +26,7 @@ arr=arr.slice(2,4)
 // Only change code above this line
 console.log(forecast(['cold', 'rainy', 'warm', 'sunny', 'cool', 'thunderstorms']));
 ```
-2#copy-an-array-with-the-spread-operator
+2 # copy-an-array-with-the-spread-operator
 ```
 function copyMachine(arr, num) {
   let newArr = [];
@@ -43,7 +43,7 @@ newArr.push([...arr])
 console.log(copyMachine([true, false, true], 2));
 ```
 
-3# profile-lookup
+3 # profile-lookup
 ```
 // Setup
 const contacts = [
@@ -98,14 +98,14 @@ return "No such contact"
 
 lookUpProfile("Akira", "likes");
 ```
-4 #write-reusable-javascript-with-functions
+4 # write-reusable-javascript-with-functions
 ```
 function reusableFunction(){
   console.log("Hi World");
 }
 reusableFunction()
 ```
-5# understanding-undefined-value-returned-from-a-function
+5 # understanding-undefined-value-returned-from-a-function
 
 ```
 // Setup
