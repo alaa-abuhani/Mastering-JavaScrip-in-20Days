@@ -1,10 +1,15 @@
 *javascript have primitive data type are immutable
+
 -string
 -number
 -boolean
+
 *javascript have object data type and array is special kind of object
+
 *object and array mutable
+
 *immutable variables can assign to mutable value
+
 
 
 1# basic-data-structures/copy-array-items-using-slice
