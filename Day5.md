@@ -2,7 +2,7 @@
 * ternary operator : Short Hand If...Else
 
 
- variable = (condition) ? expressionTrue :  expressionFalse;
+   variable = (condition) ? expressionTrue :  expressionFalse;
 
 * for/of - loops through the values of an iterable object
 ```
