@@ -4,8 +4,17 @@ ternary operator : Short Hand If...Else
 
 variable = (condition) ? expressionTrue :  expressionFalse;
 
-
-
+for/of - loops through the values of an iterable object
+for (variable of iterable) {
+  
+}
+```
+const cars = ["BMW", "Volvo", "Mini"];
+let text = "";
+for (let x of cars) {
+  text += x;
+}
+```
 
 1# use-multiple-conditional-ternary-operators
 
