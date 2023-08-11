@@ -17,7 +17,9 @@ for (let x of cars) {
   text += x;
 }
 ```
-* the map() creates a new array from calling a function for every array element.
+* the map() 
+iterates over each item in an array and returns a new array containing the results of calling the callback function on each element.
+ It does this without mutating the original array.
 
 * The filter() method creates a new array filled with elements that pass a test provided by a function.
 
