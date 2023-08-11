@@ -31,5 +31,22 @@ console.log(4 + 5 * "7");
 ```
 39 : priority do multipliaction & cast string to number then do addition
 
+QUESTION #3:
+Evaluate the following expression:
+```
+let result = 5 + 2 * 3 - 1;
+```
+10 : priority do multiplication then subtraction then addition
+ 
+QUESTION #4:
 
+Consider the following code:
+```
+let x = 10;
+let y = '10';
+console.log(x == y);
+console.log(x === y);
+```
+ 1- true : == compare the value only
+ 2- false : === compare the value  & type
 
