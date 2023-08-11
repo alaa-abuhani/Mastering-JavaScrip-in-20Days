@@ -9,4 +9,8 @@ async makes a function return a Promise
 await makes a function wait for a Promise
 
 
+Destructuring use if we need some of the items contained in array or object without edit original array .
+
+Module : A file containing a set of functions you want to include in your application.
+we can use the module  by using the import statement
  
