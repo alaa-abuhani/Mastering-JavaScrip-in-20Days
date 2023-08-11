@@ -20,4 +20,5 @@ import message from "./message.js";
 </script>
 ```
 link task (https://github.com/alaa-abuhani/GSG-Project.github.io/tree/main/RickandMorty)
+link image (https://github.com/alaa-abuhani/GSG-Project.github.io/blob/main/RickandMorty/task.jpg)
  
