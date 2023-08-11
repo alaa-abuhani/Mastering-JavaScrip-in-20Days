@@ -19,7 +19,7 @@ for (let x of cars) {
 ```
 * the map() 
 iterates over each item in an array and returns a new array containing the results of calling the callback function on each element.
- It does this without mutating the original array.
+It does this without mutating the original array.
 
 * The filter() method creates a new array filled with elements that pass a test provided by a function.
 without needing to modify the original array.
