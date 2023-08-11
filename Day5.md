@@ -1,3 +1,10 @@
+
+ternary operator : Short Hand If...Else
+variable = (condition) ? expressionTrue :  expressionFalse;
+
+
+
+
 1# use-multiple-conditional-ternary-operators
 
 ```
