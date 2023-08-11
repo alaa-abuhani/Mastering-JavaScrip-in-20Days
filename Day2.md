@@ -51,3 +51,13 @@ console.log(x === y);
 
  2- false : === compare the value  & type
 
+QUESTION #5:
+Given the code below:
+```
+let num = "15";
+let isPositive = true;
+let result = (num > 10 && isPositive) || num < 0;
+console.log(result);
+```
+true : (num > 10 && isPositive ) => true num cast to number  (  true  || false ) => true 
+
