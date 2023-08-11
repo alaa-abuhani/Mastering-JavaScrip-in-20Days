@@ -22,4 +22,14 @@ What will be the output of each console.log statement? You MUST explain WHY.
 
 3-true : first it will cast string to true , ! make it false and !!make it true 
 
+QUESTION #2:
+
+Consider the following JavaScript expression:
+
+```
+console.log(4 + 5 * "7");
+```
+39 : priority do multipliaction & cast string to number then do addition
+
+
 
