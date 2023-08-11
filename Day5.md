@@ -1,5 +1,6 @@
 
 ternary operator : Short Hand If...Else
+
 variable = (condition) ? expressionTrue :  expressionFalse;
 
 
