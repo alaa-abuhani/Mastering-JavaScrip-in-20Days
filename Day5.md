@@ -22,6 +22,7 @@ iterates over each item in an array and returns a new array containing the resul
  It does this without mutating the original array.
 
 * The filter() method creates a new array filled with elements that pass a test provided by a function.
+without needing to modify the original array.
 
 1# use-multiple-conditional-ternary-operators
 
