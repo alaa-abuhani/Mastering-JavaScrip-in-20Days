@@ -48,5 +48,6 @@ console.log(x == y);
 console.log(x === y);
 ```
  1- true : == compare the value only
+
  2- false : === compare the value  & type
 
