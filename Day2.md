@@ -17,6 +17,9 @@ console.log(!!d);
 What will be the output of each console.log statement? You MUST explain WHY.
 
 1-true : (==) compare value not  type
+
 2-false : b and c dont have  same type & data type 
+
 3-true : first it will cast string to true , ! make it false and !!make it true 
+
 
