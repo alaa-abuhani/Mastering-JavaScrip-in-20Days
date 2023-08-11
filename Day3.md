@@ -5,6 +5,8 @@
 -number
 
 -boolean
+-null 
+-undefine
 
 
 * javascript have object data type and array is special kind of object
