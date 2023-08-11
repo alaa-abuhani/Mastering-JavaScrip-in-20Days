@@ -5,7 +5,9 @@ The Assignment Operator = assigns a value to a variable.
 Arithmetic Operators are used to perform arithmetic on numbers
 
 let : cannot be Redeclared ,  must be Declared before use , have Block Scope (function scope)
+
 const : cannot be Redeclared ,  cannot be Reassigned , cannot be Reassigned
+
 
 
 QUESTION #1
