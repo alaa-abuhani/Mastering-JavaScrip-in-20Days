@@ -6,8 +6,7 @@ Arithmetic Operators are used to perform arithmetic on numbers
 
 let : cannot be Redeclared ,  must be Declared before use , have Block Scope (function scope)
 
-const : cannot be Redeclared ,  cannot be Reassigned , cannot be Reassigned
-
+const : cannot be Redeclared ,  cannot be Reassigned , chave Block Scope (function scope)
 
 
 QUESTION #1
