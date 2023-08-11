@@ -15,8 +15,6 @@ const ratings = watchList.map(s => ({
   title: s.Title,
   rating: s.imdbRating
 }));
-
-
 // Only change code above this line
 ```
 
