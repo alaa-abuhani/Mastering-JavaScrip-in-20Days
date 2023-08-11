@@ -17,6 +17,9 @@ for (let x of cars) {
   text += x;
 }
 ```
+* the map() creates a new array from calling a function for every array element.
+
+* The filter() method creates a new array filled with elements that pass a test provided by a function.
 
 1# use-multiple-conditional-ternary-operators
 
