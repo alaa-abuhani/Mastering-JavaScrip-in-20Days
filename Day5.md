@@ -1,10 +1,10 @@
 
-*ternary operator : Short Hand If...Else
+* ternary operator : Short Hand If...Else
 
 
  variable = (condition) ? expressionTrue :  expressionFalse;
 
-*for/of - loops through the values of an iterable object
+* for/of - loops through the values of an iterable object
 ```
 for (variable of iterable) {
   
