@@ -9,3 +9,6 @@
 - Memory
 
 ##### A callback : is a function passed as an argument to another function.
+
+##### Higher Order Function :The outer function that takes in a function 
+
