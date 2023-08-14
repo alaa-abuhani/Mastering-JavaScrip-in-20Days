@@ -4,6 +4,8 @@
 
 ##### Call stack: The call stack is a part of the JavaScript engine that helps keep track of function calls. When a function gets invoked, it is pushed to the call stack where its execution begins, and when the execution is complete, the function gets popped off the call stack. It uses the concept of stacks in data structures that follows the Last-In-First-Out (LIFO) principle.
 
-##### There are two types of execution contexts: global and function. The global execution context is created when a JavaScript script first starts to run, and it represents the global scope in JavaScript. A function execution context is created whenever a function is called, representing the function's local scope.
+#####  execution contexts : Created to run the code of a function  has 2 parts: 
+- Thread of execution
+- Memory
 
 ##### A callback : is a function passed as an argument to another function.
