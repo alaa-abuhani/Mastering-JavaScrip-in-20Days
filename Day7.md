@@ -15,7 +15,7 @@
 
 -can run after another function has finished
 
-A callback function can run after another function has finished
+// A callback function can run after another function has finished
 Callbacks are the functions that are slipped or passed into another function to decide the invocation of that function. 
 
 ##### Higher Order Function :The outer function that takes in a function 
