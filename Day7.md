@@ -19,5 +19,5 @@
 Callbacks are the functions that are slipped or passed into another function to decide the invocation of that function. 
 
 ##### Higher Order Function :The outer function that takes in a function 
-The functions that take a function as an argument, or return a function as a return value, are called higher order functions.
+//The functions that take a function as an argument, or return a function as a return value, are called higher order functions.
 
