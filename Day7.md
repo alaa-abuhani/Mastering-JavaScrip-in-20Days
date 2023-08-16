@@ -46,6 +46,29 @@ urlSlug("A Mind Needs Books Like A Sword Needs A Whetstone");
 - Question 1: Functions and Callbacks
 Implement a JavaScript function called mapAsync that takes an array and a callback function. The function should map each element of the array to a new value using the callback function asynchronously.
 The final result should be returned as a Promise.
+```
+function mapAsync(array, newArrayFunction) {
+  return  new  Promise(function (resolve) {
+    let newArray = [];
+
+    for (x of array) {
+        newArray.push(newArrayFunction(x))
+    }
+    resolve(newArray);
+  });
+}
+
+function newArrayFunction(item) {
+  return item / 5;
+}
+const mapAsyncPromis =   mapAsync([10, 20, 30, 40 , 50], newArrayFunction);
+mapAsyncPromis.then(
+  (resolve) => {
+    console.log(resolve);
+  },
+);
+</script>
+```
 
 
 
