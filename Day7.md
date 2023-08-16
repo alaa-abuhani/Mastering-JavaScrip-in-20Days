@@ -8,7 +8,8 @@
 - Thread of execution
 - Memory
 
-##### A callback : is a function passed as an argument to another function.
+##### A callback : is a function passed as an argument to another function. 
+Callbacks are the functions that are slipped or passed into another function to decide the invocation of that function. 
 
 ##### Higher Order Function :The outer function that takes in a function 
 
