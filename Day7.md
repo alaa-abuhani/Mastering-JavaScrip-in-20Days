@@ -8,11 +8,10 @@
 - Thread of execution
 - Memory
 
-##### A callback :  *is a function passed as an argument to another function. 
-
-                    *This technique allows a function to call another function
-
-                    *can run after another function has finished
+##### A callback : 
+-is a function passed as an argument to another function. 
+-This technique allows a function to call another function
+-can run after another function has finished
 
 A callback function can run after another function has finished
 Callbacks are the functions that are slipped or passed into another function to decide the invocation of that function. 
