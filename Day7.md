@@ -10,7 +10,9 @@
 
 ##### A callback : 
 -is a function passed as an argument to another function. 
+
 -This technique allows a function to call another function
+
 -can run after another function has finished
 
 A callback function can run after another function has finished
