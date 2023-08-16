@@ -77,7 +77,7 @@ Write a JavaScript function called sumRange that calculates the sum of all integ
         if(start == end) 
         return start
         else
-        return start + sumRange(start +1 , end )
+        return start + sumRange(start + 1 , end )
     }
 console.log(sumRange(1,5));
 ```
