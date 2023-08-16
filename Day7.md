@@ -42,6 +42,12 @@ return (title.toLowerCase().split(" ").filter(item => item !== "").join("-"));
 // Only change code above this line
 urlSlug("A Mind Needs Books Like A Sword Needs A Whetstone");
 ```
+3 #
+- Question 1: Functions and Callbacks
+Implement a JavaScript function called mapAsync that takes an array and a callback function. The function should map each element of the array to a new value using the callback function asynchronously.
+The final result should be returned as a Promise.
+
+
 
 
 
