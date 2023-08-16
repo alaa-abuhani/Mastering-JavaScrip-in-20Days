@@ -21,7 +21,7 @@ Callbacks are the functions that are slipped or passed into another function to 
 ##### Higher Order Function :The outer function that takes in a function 
 //The functions that take a function as an argument, or return a function as a return value, are called higher order functions.
 
-# 1 use-higher-order-functions-map-filter-or-reduce-to-solve-a-complex-problem
+ 1 # use-higher-order-functions-map-filter-or-reduce-to-solve-a-complex-problem
 ```
 const squareList = arr => {
   // Only change code below this line
@@ -32,7 +32,7 @@ return arr.filter(item => item > 0 && (item % 2 === 0|| item % 2 === 1)).map(ite
 const squaredIntegers = squareList([-3, 4.8, 5, 3, -3.2]);
 console.log(squaredIntegers);
 ```
-# 2 apply-functional-programming-to-convert-strings-to-url-slugs
+2 # apply-functional-programming-to-convert-strings-to-url-slugs
 ```
 // Only change code below this line
 function urlSlug(title) {
