@@ -30,7 +30,7 @@
 
 ![10](https://github.com/alaa-abuhani/Mastering-JavaScript-in-20Days/assets/65255601/014f7b8c-0c49-4938-aedf-98371cbd762f)
 
-- queu call :
+- queue call :
 
 ![11](https://github.com/alaa-abuhani/Mastering-JavaScript-in-20Days/assets/65255601/50bc9543-a3f6-453f-9837-aae1bfefe6f5)
 
