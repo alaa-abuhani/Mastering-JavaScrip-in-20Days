@@ -64,7 +64,7 @@ This is a feature in JS which continuously checks if the main stack is empty. An
 
 *good reference : (https://dillionmegida.com/p/callback-queue-and-event-loop/)
 
-=====================================================================================================================================
+========================================================================================================
 # promises
 ![image](https://github.com/alaa-abuhani/Mastering-JavaScript-in-20Days/assets/65255601/3eaad5b4-1a40-409d-a948-f86e5ea14cff)
 
