@@ -43,8 +43,9 @@
           
     console.log('C');
 
-#### Output:
+
 ```
+#### Output:
 A 
 
 
@@ -53,7 +54,6 @@ C
 
 B
 
-```
 
 * When JS tries to execute the above program, it places the first statement in the call stack which gets executed and prints A in the console and it gets to pop out of the stack. Now, it places the second statement in the call stack and when it tries to execute the statement, it finds out that setTimeout() doesn’t belong to JS so it pops out the function and puts in the WebAPI to get executed there. Since the call stack is now again empty, it places the third statement in the stack and executes it thus printing C in the console.
 
