@@ -10,4 +10,9 @@ Closure (scope and execution context)
 
 #### *Calling a function in the same function call as it was defined
 
-![2](https://github.com/alaa-abuhani/Mastering-JavaScript-in-20Days/assets/65255601/b253e673-2b70-45eb-aac5-283bdb4b70ae)
+![6](https://github.com/alaa-abuhani/Mastering-JavaScript-in-20Days/assets/65255601/e7ffd35a-daa0-45fb-b396-372653e26dbd)
+
+#### *Calling a function outside of the function call in which it was defined
+
+
+![3](https://github.com/alaa-abuhani/Mastering-JavaScript-in-20Days/assets/65255601/0c375734-aee6-41ea-8f85-9c0f03d8edc7)
