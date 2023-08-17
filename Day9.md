@@ -3,11 +3,8 @@
 #### This arises the problem of time wastage as well as resource wastage. These two problems are overcome by asynchronous calls, where one doesn’t wait for one call to complete instead it runs another task simultaneously.
 
 -JS  have a :
-
 -lexical environment, 
-
 -syntax parser, 
-
 -execution context (memory heap and call stack) that is used to execute the JS code
 
 
