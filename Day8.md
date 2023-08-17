@@ -53,9 +53,39 @@ Write a closure named calculateAverage that takes an array of numbers, nums, and
  const averageArray = calculateAverage([1,2,3]);
  console.log(averageArray);
 
-
+```
+Question 3:
+Write a closure named powerOf that takes a base number base and returns a function. The returned function, when invoked with an exponent exp, should calculate and return the result of base raised to the power of exp.
 
 ```
+function powerOf(base) {
+
+let baseNumber =  base ;
+function eponent(exp){
+  return Math.pow(base,exp)
+}
+return eponent
+}
+const y = powerOf(2);
+console.log(y);
+```
+Question 4:
+Write a closure named compose that takes multiple functions as arguments and returns a new function. The returned function should apply the provided functions in reverse order, passing the result of each function as an argument to the next function.
+
+```
+
+function compose(...functions){
+   
+    function applyFunctions(){
+
+        return functions.reduceRight((funcResult, f) => f(funcResult), 0); // inatial = 0 
+    }
+ 
+}
+
+```
+
+
 
 
 
