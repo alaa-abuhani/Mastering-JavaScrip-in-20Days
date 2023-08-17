@@ -1,7 +1,9 @@
 ###JavaScript is a single-threaded language, it is synchronous in nature
 #### synchronous calls, all the work is done line by line i.e. the first task is executed then the second task is executed, no matter how much time one task will take.
 #### This arises the problem of time wastage as well as resource wastage. These two problems are overcome by asynchronous calls, where one doesn’t wait for one call to complete instead it runs another task simultaneously.
+
 -JS  have a :
+
 -lexical environment, 
 
 -syntax parser, 
