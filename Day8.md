@@ -18,11 +18,6 @@ Closure (scope and execution context)
 ![3](https://github.com/alaa-abuhani/Mastering-JavaScript-in-20Days/assets/65255601/0c375734-aee6-41ea-8f85-9c0f03d8edc7)
 
 **The backpack :
-
-![7](https://github.com/alaa-abuhani/Mastering-JavaScript-in-20Days/assets/65255601/c5c4fcdf-223e-4061-b4a7-87be9481c54d)
-
+![8](https://github.com/alaa-abuhani/Mastering-JavaScript-in-20Days/assets/65255601/84816bf0-2f1c-4758-9421-cded36367ccb)
 
 
-
-
- 
