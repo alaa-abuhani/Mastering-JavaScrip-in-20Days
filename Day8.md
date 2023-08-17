@@ -18,6 +18,47 @@ Closure (scope and execution context)
 ![3](https://github.com/alaa-abuhani/Mastering-JavaScript-in-20Days/assets/65255601/0c375734-aee6-41ea-8f85-9c0f03d8edc7)
 
 **The backpack :
+
 ![8](https://github.com/alaa-abuhani/Mastering-JavaScript-in-20Days/assets/65255601/84816bf0-2f1c-4758-9421-cded36367ccb)
+
+Question 1:
+
+Write a closure named createCounter that takes an initial value start and returns a function. The returned function, when invoked, should increment the counter by 1 and return the updated value.
+
+```
+function createCounter(start){
+
+     let inaitail = start ;
+     function increment(){ return inaitail++} 
+     return increment
+}
+ let incremntCounter = createCounter(5);
+ console.log(incremntCounter);
+```
+
+
+Question 2:
+Write a closure named calculateAverage that takes an array of numbers, nums, and returns a function. The returned function, when invoked, should calculate and return the average of the numbers in the array.
+```
+ function calculateAverage(arr){
+    let sum = 0;
+    function average (){
+       for(item of arr) {
+        sum += item;
+    }
+    sum/arr.length
+  }
+  return average
+ }
+ const averageArray = calculateAverage([1,2,3]);
+ console.log(averageArray);
+
+
+
+```
+
+
+
+
 
 
