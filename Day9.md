@@ -23,7 +23,15 @@
 
 
 - setTimeout() is an asynchronous function, meaning that the timer function will not pause execution of other functions in the functions stack. In other words, you cannot use setTimeout() to create a "pause" before the next function in the function stack fires.
+
+- trigger timer in browser 
   
 
 
 ![10](https://github.com/alaa-abuhani/Mastering-JavaScript-in-20Days/assets/65255601/014f7b8c-0c49-4938-aedf-98371cbd762f)
+
+- queu call :
+
+![11](https://github.com/alaa-abuhani/Mastering-JavaScript-in-20Days/assets/65255601/c9bcece2-611d-4238-b089-8609498928f5)
+
+
