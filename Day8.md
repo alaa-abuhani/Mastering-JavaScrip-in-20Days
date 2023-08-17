@@ -46,7 +46,7 @@ Write a closure named calculateAverage that takes an array of numbers, nums, and
        for(item of arr) {
         sum += item;
     }
-    sum/arr.length
+    return sum/arr.length
   }
   return average
  }
