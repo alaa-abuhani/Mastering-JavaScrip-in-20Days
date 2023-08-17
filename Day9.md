@@ -61,5 +61,6 @@ The Callback queue waits until the call stack is empty. Afterwards, the codes in
 
 #### Event Loop
 This is a feature in JS which continuously checks if the main stack is empty. And when it is empty, it checks the Callback Queue. If there are codes in the queue to be executed, they are transferred one by one to the call stack. After the code is executed, it leaves the stack and the next one in the queue comes up until the queue is empty.
+
 *good reference : (https://dillionmegida.com/p/callback-queue-and-event-loop/)
 
