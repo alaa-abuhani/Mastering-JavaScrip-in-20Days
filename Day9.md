@@ -75,4 +75,4 @@ This is a feature in JS which continuously checks if the main stack is empty. An
  ![image](https://github.com/alaa-abuhani/Mastering-JavaScript-in-20Days/assets/65255601/618f6672-0d09-4647-b42f-b2d4bf0bed93)
 
 
-
+![14](https://github.com/alaa-abuhani/Mastering-JavaScript-in-20Days/assets/65255601/ce98cc6d-4449-4af9-a659-124c3b13fe85)
