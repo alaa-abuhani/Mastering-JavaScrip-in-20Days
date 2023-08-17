@@ -32,6 +32,4 @@
 
 - queu call :
 
-![11](https://github.com/alaa-abuhani/Mastering-JavaScript-in-20Days/assets/65255601/c9bcece2-611d-4238-b089-8609498928f5)
-
-
+![11](https://github.com/alaa-abuhani/Mastering-JavaScript-in-20Days/assets/65255601/e7d62161-6d1b-404a-953f-d1ac88737504)
