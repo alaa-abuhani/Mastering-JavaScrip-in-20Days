@@ -42,8 +42,6 @@
     }, 3000);
           
     console.log('C');
-
-
 ```
 #### Output:
 A 
@@ -53,8 +51,7 @@ C
 
 
 B
-
-
+***
 * When JS tries to execute the above program, it places the first statement in the call stack which gets executed and prints A in the console and it gets to pop out of the stack. Now, it places the second statement in the call stack and when it tries to execute the statement, it finds out that setTimeout() doesn’t belong to JS so it pops out the function and puts in the WebAPI to get executed there. Since the call stack is now again empty, it places the third statement in the stack and executes it thus printing C in the console.
 
 * In the meanwhile, the WebAPI executes the timeout function and places the code in the callback queue. The event loop checks if the call stack is empty or not or whether there is any statement in the callback queue that needs to be executed all the time. As soon as the event loop checks that the call stack is empty and there is something in the callback queue that needs to be executed, it places the statement in the call stack and the call stack executes the statement and prints B in the console of the browser.
