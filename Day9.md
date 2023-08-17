@@ -17,3 +17,10 @@
 
 ![9](https://github.com/alaa-abuhani/Mastering-JavaScript-in-20Days/assets/65255601/735c9b3d-9c2a-4c29-9d57-c98393e89146)
 
+
+- The setTimeout() method calls a function after a number of milliseconds.
+  1 second = 1000 milliseconds.
+  
+
+
+![10](https://github.com/alaa-abuhani/Mastering-JavaScript-in-20Days/assets/65255601/014f7b8c-0c49-4938-aedf-98371cbd762f)
