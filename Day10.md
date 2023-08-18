@@ -15,7 +15,9 @@ person.lastName = "Doe";
 
 - Define an object constructor, and then create objects of the constructed type.
 ```
-
+const o = new Object();
+o.foo = 42;
+console.log(o);// { foo: 42 }
 ```
 
 - Create an object using Object.create()
