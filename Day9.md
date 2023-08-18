@@ -84,7 +84,7 @@ promise handel on Rejected
 
 
 
-Question 1:
+# Question 1:
 You are given a function executeInSequenceWithCBs and some code. The task is to modify the executeInSequenceWithCBs function so that it runs and executes all the tasks inside the asyncTasks array.
 
 The function should return an array of messages obtained from each task's execution.
@@ -108,7 +108,7 @@ const executeInSequenceWithCBs = (tasks, callback) => {
     }
 }
 ```
-Question 2:
+# Question 2:
 You are given a function called executeInParallelWithPromises, which takes an array of APIs (represented by objects).
 
 Your task is to write code that fetches the data of each API in parallel using promises. In Parallel means that the api which resolves first, returns its value first, regardless of the execution order.
@@ -135,5 +135,31 @@ const executeInParallelWithPromises = async (apis) => {
     
     executeInParallelWithPromises(apis);
 ```
+# Question 3:
+You are given a function called executeInSequenceWithPromises, which takes an array of APIs (represented by objects).
+
+Your task is to write code that fetches the data of each API sequentially (one after the other) using promises.
+
+In Sequence means that the api which executes first, returns its value first.
+
+The output of the executeInSequenceWithPromises function should be an array containing the results of each API's execution.
+
+Each result should be an object with three keys: apiName, apiUrl, and apiData.
+
+```
+const executeInSequenceWithPromises = async (api) => {
+  let final = []
+  for (let i = 0; i < api.length; i++) {
+    let apiResult = await fetch(api[i].apiUrl);
+    let apiData = await apiResult.json();
+    final.push({ apiName: api[i].apiName, apiUrl: api[i].apiUrl, apiData })
+    
+  }
+    
+    console.log(final)
+};
+
+```
+
 
 
