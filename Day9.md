@@ -108,5 +108,32 @@ const executeInSequenceWithCBs = (tasks, callback) => {
     }
 }
 ```
+Question 2:
+You are given a function called executeInParallelWithPromises, which takes an array of APIs (represented by objects).
+
+Your task is to write code that fetches the data of each API in parallel using promises. In Parallel means that the api which resolves first, returns its value first, regardless of the execution order.
+
+The output of the executeInParallelWithPromises function should be an array containing the results of each API's execution.
+
+Each result should be an object with three keys: apiName, apiUrl, and apiData..
+
+```
+const executeInParallelWithPromises = async (apis) => {
+        let final = await Promise.all(
+        apis.map((api) =>
+            fetch(api.apiUrl)
+            .then((response) => response.json())
+            .then((apiData) => ({
+                apiName: api.apiName,
+                apiUrl: api.apiUrl,
+                apiData,
+            }))
+        )
+        );
+        console.log(final);
+    };
+    
+    executeInParallelWithPromises(apis);
+```
 
 
