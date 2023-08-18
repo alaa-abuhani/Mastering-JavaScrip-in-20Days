@@ -76,3 +76,8 @@ This is a feature in JS which continuously checks if the main stack is empty. An
 
 
 ![14](https://github.com/alaa-abuhani/Mastering-JavaScript-in-20Days/assets/65255601/ce98cc6d-4449-4af9-a659-124c3b13fe85)
+
+promise handel on Rejected
+
+
+![15](https://github.com/alaa-abuhani/Mastering-JavaScript-in-20Days/assets/65255601/4bea1f40-8b4b-47f7-a7c9-a492c8b88109)
