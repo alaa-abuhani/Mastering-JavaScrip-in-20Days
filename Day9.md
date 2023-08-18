@@ -118,22 +118,31 @@ The output of the executeInParallelWithPromises function should be an array cont
 Each result should be an object with three keys: apiName, apiUrl, and apiData..
 
 ```
-const executeInParallelWithPromises = async (apis) => {
-        let final = await Promise.all(
-        apis.map((api) =>
+ const executeInParallelWithPromises = (apis) => {
+        const result=[]
+        let count=0
+        return new Promise((resolve, reject)=>{
+        apis.map((api,i) =>
             fetch(api.apiUrl)
-            .then((response) => response.json())
-            .then((apiData) => ({
-                apiName: api.apiName,
-                apiUrl: api.apiUrl,
-                apiData,
-            }))
+            .then((response) =>response.json()
+            ).then((apiData)=>{
+                count++
+              result[i]={...api,
+                apiData}
+                if(count===apis.length){
+                    resolve(result)
+                }
+            }).catch(error=>{
+                reject(error)
+            })
         )
-        );
-        console.log(final);
+    })
+
     };
     
-    executeInParallelWithPromises(apis);
+    executeInParallelWithPromises(apis).then((data)=>{
+        console.log(data)
+    });
 ```
 # Question 3:
 You are given a function called executeInSequenceWithPromises, which takes an array of APIs (represented by objects).
@@ -147,17 +156,28 @@ The output of the executeInSequenceWithPromises function should be an array cont
 Each result should be an object with three keys: apiName, apiUrl, and apiData.
 
 ```
-const executeInSequenceWithPromises = async (api) => {
-  let final = []
-  for (let i = 0; i < api.length; i++) {
-    let apiResult = await fetch(api[i].apiUrl);
-    let apiData = await apiResult.json();
-    final.push({ apiName: api[i].apiName, apiUrl: api[i].apiUrl, apiData })
-    
+const executeInSequenceWithPromises =  (apis) => {
+  const data = []
+  let count=0
+  return new Promise(async(resolve, reject)=>{
+    for (let i = 0; i < apis.length; i++) {
+    const{apiUrl}=apis[i]
+    const response = await fetch(apiUrl);
+    const apiData = await response.json();
+    console.log(i)
+    data.push({...apis[i], apiData })
+   count++
+   if(count===apis.length){
+    resolve(data)
+   }
   }
-    
-    console.log(final)
+  })
+ 
 };
+
+executeInSequenceWithPromises(apis).then((data)=>{
+    console.log(data)
+})
 
 ```
 
