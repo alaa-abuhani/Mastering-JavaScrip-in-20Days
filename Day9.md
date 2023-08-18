@@ -81,3 +81,32 @@ promise handel on Rejected
 
 
 ![15](https://github.com/alaa-abuhani/Mastering-JavaScript-in-20Days/assets/65255601/4bea1f40-8b4b-47f7-a7c9-a492c8b88109)
+
+
+
+Question 1:
+You are given a function executeInSequenceWithCBs and some code. The task is to modify the executeInSequenceWithCBs function so that it runs and executes all the tasks inside the asyncTasks array.
+
+The function should return an array of messages obtained from each task's execution.
+
+You are only allowed to change the executeInSequenceWithCBs function or add new functions/code. You cannot modify the tasks' functions.
+```
+
+
+const executeInSequenceWithCBs = (tasks, callback) => {
+    const messagesAarray=[]
+    let count=0
+    for (let i =0 ; i< tasks.length;i++){
+        const task=tasks[i]
+        task((message)=>{
+            messagesAarray[i]=message
+            count++
+            if(count===tasks.length){
+              callback(messagesAarray)
+            }
+        })
+    }
+}
+```
+
+
