@@ -27,6 +27,18 @@ const person = {
 }
 const me = Object.create(person);
 ```
+* this key word 
+- When used in an object method, this refers to the object.
+this refer to person 
+```
+const person = {
+  firstName: "John",
+  fullName : function() {
+  return this.firstName ;
+}
+```
+
+
 
 
 
