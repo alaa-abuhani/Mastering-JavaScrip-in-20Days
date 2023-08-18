@@ -37,6 +37,11 @@ const person = {
   return this.firstName ;
 }
 ```
+- When used alone, this refers to the global object.
+```
+let x = this; // [object Window]
+```
+
 
 
 
