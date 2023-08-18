@@ -56,7 +56,7 @@ function Person(first, last, age, eyecolor) {
 
 Person.prototype.nationality = "English";
  ```
--The JavaScript prototype property also allows you to add new methods to objects constructors: 
+- The JavaScript prototype property also allows you to add new methods to objects constructors: 
  ```
 function Person(first, last, age, eyecolor) {
   this.firstName = first;
