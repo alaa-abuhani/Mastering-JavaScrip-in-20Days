@@ -41,6 +41,34 @@ const person = {
 ```
 let x = this; // [object Window]
 ```
+prototype :
+all JavaScript objects inherit properties and methods from a prototype.
+The Object.prototype is on the top of the prototype inheritance chain:
+- Using the prototype Property
+ - The JavaScript prototype property allows you to add new properties to object constructors:
+ ```
+function Person(first, last, age, eyecolor) {
+  this.firstName = first;
+  this.lastName = last;
+  this.age = age;
+  this.eyeColor = eyecolor;
+}
+
+Person.prototype.nationality = "English";
+ ```
+-The JavaScript prototype property also allows you to add new methods to objects constructors: 
+ ```
+function Person(first, last, age, eyecolor) {
+  this.firstName = first;
+  this.lastName = last;
+  this.age = age;
+  this.eyeColor = eyecolor;
+}
+
+Person.prototype.name = function() {
+  return this.firstName + " " + this.lastName;
+};
+ ```
 
 
 
