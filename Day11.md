@@ -81,12 +81,22 @@ isNaN("my son age");    // true
 #### NaN, it is a number, and it is the invalid number, and it is going to occur in your programs
 #### the type of a NaN is number. It's just an invalid number.
 
-#### The Number() method converts a value to a number.
+### The Number() method converts a value to a number.
 - If the value cannot be converted, NaN is returned.
 ##### Notes
 - For booleans, Number() returns 0 or 1.
 - For dates, Number() returns milliseconds since January 1, 1970 00:00:00.
 - For strings, Number() returns a number or NaN.
 
+* - isNaN() method returns true if a value is Not-a-Number. <=> isNaN() converts the value to a number before testing it.
+* - Number.isNaN() returns true if a number is Not-a-Number.
+- Example :
+
+```
+isNaN('Hello');  // This returns true;
+
+Number.isNaN('Hello'); // This returns false; 
+
+```
 
 
