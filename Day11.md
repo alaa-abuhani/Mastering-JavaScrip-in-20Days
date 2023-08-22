@@ -17,6 +17,9 @@ object :
 - array subtype of object
 
 #### The typeof Operator
+
+Any value's value-type can be inspected via the typeof operator, which always returns a string value representing the underlying JS value-type:
+
 ##### You can use the typeof operator to find the data type of a JavaScript variable.
 ```
 typeof "John"                 // Returns "string"
