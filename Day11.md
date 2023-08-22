@@ -59,10 +59,24 @@ function isArray(myArray) {
 ## NaN
 - In JavaScript, NaN is short for "Not-a-Number".
 - In JavaScript, NaN is a number that is not a legal number.
-- The Global NaN property is the same as the Number.NaN property.
+- The Global NaN property is the same as the Number.NaN property. 
+```
+var myNextAge = Number("39"); // 39 
+var MycastAge = Number("n/a"); // NaN
+myAge - "my son age"           // NaN
+MycastAge === MycastAge // false
+
+```
+
 
 #### NaN it is not equal to itself,
 #### Undefined is absolutely equal to itself
+```
+isNaN(myAge);           // false
+isNaN(MycastAge);       // true
+isNaN("my son age");    // true
+
+```
 
 #### NaN, it is a number, and it is the invalid number, and it is going to occur in your programs
 #### the type of a NaN is number. It's just an invalid number.
