@@ -39,5 +39,15 @@ typeof function myFunc(){}   // Returns "function"
 ```
 ##### The typeof operator returns "object" for arrays because in JavaScript arrays are objects.
 
+- you can check if the object is an Array function:
+```
+const fruits = ["Banana", "Orange", "Apple", "Mango"];
+document.getElementById("demo").innerHTML = isArray(fruits);
+
+function isArray(myArray) {
+  return myArray.constructor === Array;
+}
+```
+
 
 
