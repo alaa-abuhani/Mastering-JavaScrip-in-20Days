@@ -152,6 +152,11 @@ Object.is(NaN, 0 / 0); // true
 Object.is(NaN, Number.NaN); // true
 ```
 
+### The Math.sign() : method retuns whether a number is negative, positive or zero.
+* - If the number is positive, this method returns 1.
+* - If the number is negative, it returns -1.
+* - If the number is zero, it returns 0.
+
 
 
 
