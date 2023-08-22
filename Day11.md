@@ -105,7 +105,7 @@ Number.isNaN(MycastAge); // This returns  true;
 ```
 ### Negative Zero
 The -0 (Negative Zero) is essentially the zero value, but with the sign bit on. So it is the negative representation of a zero.
-```
+
 ![image](https://github.com/alaa-abuhani/Mastering-JavaScript-in-20Days/assets/65255601/6f1b4cff-8643-4204-b11a-7b80684553b6)
 
 
