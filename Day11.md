@@ -98,5 +98,11 @@ isNaN('Hello');  // This returns true;
 Number.isNaN('Hello'); // This returns false; 
 
 ```
+```
+var MycastAge = Number("n/a");
+Number.isNaN(MycastAge); // This returns  true; 
+
+```
+
 
 
