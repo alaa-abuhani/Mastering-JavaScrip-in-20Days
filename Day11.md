@@ -160,6 +160,10 @@ Object.is(NaN, Number.NaN); // true
 * - If the number is not a number, it returns NaN
 ![image](https://github.com/alaa-abuhani/Mastering-JavaScript-in-20Days/assets/65255601/5cc3b2da-034a-4ccb-a3f9-641c045017b5)
 
+### Fundamental Objects
+![image](https://github.com/alaa-abuhani/Mastering-JavaScript-in-20Days/assets/65255601/57a3cac0-1fd9-49b4-abb3-17822f0fd859)
+
+
 
 
 
