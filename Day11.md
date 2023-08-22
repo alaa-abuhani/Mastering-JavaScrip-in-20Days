@@ -48,6 +48,10 @@ function isArray(myArray) {
   return myArray.constructor === Array;
 }
 ```
+## Undefined vs Undeclared 
+* Undefined variable means a variable has been declared but does not have a value.
+
+* Undeclared variable means that the variable does not exist in the program at all.
 
 
 
