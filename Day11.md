@@ -81,5 +81,8 @@ isNaN("my son age");    // true
 #### NaN, it is a number, and it is the invalid number, and it is going to occur in your programs
 #### the type of a NaN is number. It's just an invalid number.
 
+#### The Number() method converts a value to a number.
+- If the value cannot be converted, NaN is returned.
+
 
 
