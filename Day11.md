@@ -54,6 +54,7 @@ function isArray(myArray) {
 * Undeclared variable means that the variable does not exist in the program at all.
 
 #### NaN it is not equal to itself,
+#### Undefined is absolutely equal to itself
 
 
 
