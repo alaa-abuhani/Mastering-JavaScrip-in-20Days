@@ -83,6 +83,10 @@ isNaN("my son age");    // true
 
 #### The Number() method converts a value to a number.
 - If the value cannot be converted, NaN is returned.
+##### Notes
+- For booleans, Number() returns 0 or 1.
+- For dates, Number() returns milliseconds since January 1, 1970 00:00:00.
+- For strings, Number() returns a number or NaN.
 
 
 
