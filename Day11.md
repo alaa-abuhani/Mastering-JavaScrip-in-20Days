@@ -108,6 +108,12 @@ The -0 (Negative Zero) is essentially the zero value, but with the sign bit on. 
 
 ![image](https://github.com/alaa-abuhani/Mastering-JavaScript-in-20Days/assets/65255601/6f1b4cff-8643-4204-b11a-7b80684553b6)
 
+* - toString() the -0 we got 0.
+
+* - The triple equals operator ( === ) again lies to us, cuz it says the -0 is equal to a 0.
+
+* - the < (less than sign) and the > (greater than sign) , also lie to us.
+
 
 
 
