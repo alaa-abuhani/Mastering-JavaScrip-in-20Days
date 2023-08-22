@@ -156,6 +156,8 @@ Object.is(NaN, Number.NaN); // true
 * - If the number is positive, this method returns 1.
 * - If the number is negative, it returns -1.
 * - If the number is zero, it returns 0.
+* - If the number is negative zero, it returns -0
+* - If the number is not a number, it returns NaN
 
 
 
