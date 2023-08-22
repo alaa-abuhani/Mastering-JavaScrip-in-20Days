@@ -28,7 +28,7 @@ typeof {name:'John', age:34}  // Returns "object"
 typeof new Date()             // Returns "object"
 typeof function () {}         // Returns "function"
 typeof myCar                  // Returns "undefined" *
-typeof null   
+typeof null                   // Returns "object"
 
 ```
 
