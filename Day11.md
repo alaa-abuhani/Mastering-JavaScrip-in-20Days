@@ -56,5 +56,7 @@ function isArray(myArray) {
 #### NaN it is not equal to itself,
 #### Undefined is absolutely equal to itself
 
+#### NaN, it is a number, and it is the invalid number, and it is going to occur in your programs, not maybe, it will
+
 
 
