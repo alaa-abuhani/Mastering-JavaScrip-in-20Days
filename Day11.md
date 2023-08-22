@@ -37,6 +37,7 @@ typeof [1,2,3,4]             // Returns "object" (not "array")
 typeof null                  // Returns "object"
 typeof function myFunc(){}   // Returns "function"
 ```
+##### The typeof operator returns "object" for arrays because in JavaScript arrays are objects.
 
 
 
