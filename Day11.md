@@ -57,6 +57,10 @@ function isArray(myArray) {
 * Undeclared variable means that the variable does not exist in the program at all.
 
 ## NaN
+- In JavaScript, NaN is short for "Not-a-Number".
+- In JavaScript, NaN is a number that is not a legal number.
+- The Global NaN property is the same as the Number.NaN property.
+
 #### NaN it is not equal to itself,
 #### Undefined is absolutely equal to itself
 
