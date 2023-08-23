@@ -176,6 +176,11 @@ toString() :
 ![image](https://github.com/alaa-abuhani/Mastering-JavaScript-in-20Days/assets/65255601/6c816c8e-ce71-40d5-87d1-257b80a23848)
 
 ![image](https://github.com/alaa-abuhani/Mastering-JavaScript-in-20Days/assets/65255601/ac789c7a-f0fd-4e2a-b8df-a57cf751e2b8)
+```
+const arr = [1, 2, 3];
+
+arr.toString(); // "1,2,3"
+```
 
 ![image](https://github.com/alaa-abuhani/Mastering-JavaScript-in-20Days/assets/65255601/d6a768e2-2bb9-428d-b2df-228923ebb089)
 
