@@ -35,8 +35,10 @@ console.log(x == v); //true
 ![image](https://github.com/alaa-abuhani/Mastering-JavaScript-in-20Days/assets/65255601/554e144c-c761-423d-8568-52afda4e60ae)
 ![image](https://github.com/alaa-abuhani/Mastering-JavaScript-in-20Days/assets/65255601/4a4d2ba9-3f54-4bed-83a2-383d204af9d5)
 
+![image](https://github.com/alaa-abuhani/Mastering-JavaScript-in-20Days/assets/65255601/2e504c7d-b864-426d-a01b-879bb78e3847)
 
 
+![image](https://github.com/alaa-abuhani/Mastering-JavaScript-in-20Days/assets/65255601/65e4162b-65bf-4537-a130-f7f87ea647b8)
 
 
 
