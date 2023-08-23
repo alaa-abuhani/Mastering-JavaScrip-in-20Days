@@ -215,6 +215,12 @@ undefine , null convert to empty string convert to zero
 ### corner cases of coercion :
 ![image](https://github.com/alaa-abuhani/Mastering-JavaScript-in-20Days/assets/65255601/6a3d7f5e-0ed7-428e-a1f1-00fc0d8c3549)
 
+![image](https://github.com/alaa-abuhani/Mastering-JavaScript-in-20Days/assets/65255601/9d87c7c2-798a-46ca-8718-03b5b095c00c)
+
+![image](https://github.com/alaa-abuhani/Mastering-JavaScript-in-20Days/assets/65255601/3d17ef13-e056-47aa-8217-02f22db22874)
+
+
+
 
 
          
