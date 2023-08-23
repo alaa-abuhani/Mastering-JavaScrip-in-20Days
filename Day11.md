@@ -245,7 +245,22 @@ const checkNaN = (value) => {
    return  isNaN(value)
   //write your own code here
 }
-console.log(checkNaN("ala"));
+console.log(checkNaN("ala")); // true
+```
+
+Question 3:
+Write a function called isEmptyValue that checks if a given input is an empty value (undefined, null, or empty string).
+```
+function isEmptyValue(value) {
+   return Object.is(value, undefined) ||Object.is(value, null ) 
+    || ( typeof value  === "string" && !value.trim() ) ;
+  //write your own code here
+}
+
+console.log(isEmptyValue("  ")); //  true
+console.log(isEmptyValue(15));   //false
+console.log(isEmptyValue(null)); // false
+console.log(isEmptyValue(undefined)); // false
 ```
 
 
