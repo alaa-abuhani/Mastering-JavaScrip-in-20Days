@@ -12,13 +12,16 @@
 ![image](https://github.com/alaa-abuhani/Mastering-JavaScript-in-20Days/assets/65255601/1ccf5817-0ccf-4679-912d-6975422ab1c3)
 ![image](https://github.com/alaa-abuhani/Mastering-JavaScript-in-20Days/assets/65255601/12e1785b-98aa-4530-8f55-c7389a3dbff0)
 ![image](https://github.com/alaa-abuhani/Mastering-JavaScript-in-20Days/assets/65255601/1ff9ef87-7760-4eb4-961d-6f3944e2beda)
+```
 example :
 var x = { foo: null};
 var v =  {};
 console.log(v.foo == null); //true
 console.log(v.foo == undefined);//true
 console.log(x.foo == undefined);//true
+```
 ![image](https://github.com/alaa-abuhani/Mastering-JavaScript-in-20Days/assets/65255601/4ca04a8b-009d-45ed-82cc-6671e1155173)
+
 
 
 
