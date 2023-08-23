@@ -32,6 +32,8 @@ var x = [1];
 var v =  1;
 console.log(x == v); //true
 ```
+![image](https://github.com/alaa-abuhani/Mastering-JavaScript-in-20Days/assets/65255601/554e144c-c761-423d-8568-52afda4e60ae)
+
 
 
 
