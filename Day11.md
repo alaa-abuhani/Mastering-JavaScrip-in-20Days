@@ -212,6 +212,10 @@ undefine , null convert to empty string convert to zero
 
 * - that things can behave as objects, but that doesn't make them an object. This is not an object. It is a primitive string that has an optimization in it where you can access a property as if it was an object.
 
+### corner cases of coercion :
+![image](https://github.com/alaa-abuhani/Mastering-JavaScript-in-20Days/assets/65255601/6a3d7f5e-0ed7-428e-a1f1-00fc0d8c3549)
+
+
 
          
 
