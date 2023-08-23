@@ -220,6 +220,24 @@ undefine , null convert to empty string convert to zero
 ![image](https://github.com/alaa-abuhani/Mastering-JavaScript-in-20Days/assets/65255601/3d17ef13-e056-47aa-8217-02f22db22874)
 
 
+Question 1:
+Write a function called convertStringToNumber that converts a string to a number using the unary plus operator.
+
+If the input is not a string, return an object of the input's value and type.
+```
+function convertStringToNumber(input) {
+    if ((typeof input) === "string")
+     return +input;
+    else
+   return {valueIs : input , typeIs : typeof input} ;
+  //write your own code here
+}
+console.log(convertStringToNumber("15"));
+console.log(convertStringToNumber([1 , 2]));
+console.log(convertStringToNumber(true));
+```
+
+
 
 
 
