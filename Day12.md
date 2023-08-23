@@ -25,6 +25,7 @@ console.log(x.foo == undefined);//true
 ![image](https://github.com/alaa-abuhani/Mastering-JavaScript-in-20Days/assets/65255601/ea56178e-d4b3-4a3c-819b-aa7b35f2ae63)
 ![image](https://github.com/alaa-abuhani/Mastering-JavaScript-in-20Days/assets/65255601/cee6eaea-6584-46b1-9efb-95b44a971799)
 
+![image](https://github.com/alaa-abuhani/Mastering-JavaScript-in-20Days/assets/65255601/54ac0522-24bd-40d5-a433-5a67f8571ac1)
 
 
 
