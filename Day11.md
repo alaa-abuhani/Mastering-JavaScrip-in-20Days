@@ -187,6 +187,7 @@ arr.toString(); // "1,2,3"
 ![image](https://github.com/alaa-abuhani/Mastering-JavaScript-in-20Days/assets/65255601/5e098df7-3419-4355-ba5c-6e12753a404c)
 
 ![image](https://github.com/alaa-abuhani/Mastering-JavaScript-in-20Days/assets/65255601/0760a2ee-d5c7-4e7d-96bc-d106dee2c7e3)
+
 undefine , null convert to empty string convert to zero
 
 ![image](https://github.com/alaa-abuhani/Mastering-JavaScript-in-20Days/assets/65255601/a90c027a-ba63-49e9-8767-936a74ee33ac)
