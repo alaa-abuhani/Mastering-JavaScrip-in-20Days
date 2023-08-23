@@ -237,6 +237,16 @@ console.log(convertStringToNumber([1 , 2]));
 console.log(convertStringToNumber(true));
 ```
 
+Question 2:
+Write a function called checkNaN that takes a single argument and returns true if the argument is NaN and false otherwise.
+
+```
+const checkNaN = (value) => {
+   return  isNaN(value)
+  //write your own code here
+}
+console.log(checkNaN("ala"));
+```
 
 
 
