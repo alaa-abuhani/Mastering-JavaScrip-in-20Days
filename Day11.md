@@ -206,6 +206,13 @@ undefine , null convert to empty string convert to zero
 
 
 
+### boxing : form of implicit coercion 
+
+![image](https://github.com/alaa-abuhani/Mastering-JavaScript-in-20Days/assets/65255601/b06b55ea-b2e5-4e83-b68f-2b2c8c1bc991)
+
+* - that things can behave as objects, but that doesn't make them an object. This is not an object. It is a primitive string that has an optimization in it where you can access a property as if it was an object.
+
+
          
 
          
