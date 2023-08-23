@@ -263,6 +263,16 @@ console.log(isEmptyValue(null)); // false
 console.log(isEmptyValue(undefined)); // false
 ```
 
+Question 4:
+Write a function called compareObjects that takes 2 arguments of type "object" and compares them. If both arguments are equal, return true. If not, return false.
+
+If either argument is not of type "object", the function should return an array of the arguments.
+```
+function compareObjects(input1, input2) {
+  //write your own code here
+}
+```
+
 
 
 
