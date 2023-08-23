@@ -183,6 +183,13 @@ arr.toString(); // "1,2,3"
 ```
 
 ![image](https://github.com/alaa-abuhani/Mastering-JavaScript-in-20Days/assets/65255601/d6a768e2-2bb9-428d-b2df-228923ebb089)
+## toNumber()
+
+
+## toBoolean()
+
+![image](https://github.com/alaa-abuhani/Mastering-JavaScript-in-20Days/assets/65255601/8cbb3547-54f8-469c-8277-5bbded5e11d4)
+
 
 
 
