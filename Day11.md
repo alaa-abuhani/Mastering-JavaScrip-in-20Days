@@ -167,6 +167,24 @@ Object.is(NaN, Number.NaN); // true
 
 - * The first abstract operation that we have is called ToPrimitive. if we don't have a primitive, we need to turn it into a primitive. So if we have something non-primitive, like one of the object types, like an object, an array, a function, whatever, and we need to make it into a primitive, this is the abstract operation that's going to be involved in doing that.
 
+## toString abstract operation
+toString() :
+- * method returns a string as a string.
+- * method does not change the original string.
+- * method can be used to convert a string object into a string.
+
+![image](https://github.com/alaa-abuhani/Mastering-JavaScript-in-20Days/assets/65255601/6c816c8e-ce71-40d5-87d1-257b80a23848)
+
+![image](https://github.com/alaa-abuhani/Mastering-JavaScript-in-20Days/assets/65255601/ac789c7a-f0fd-4e2a-b8df-a57cf751e2b8)
+
+![image](https://github.com/alaa-abuhani/Mastering-JavaScript-in-20Days/assets/65255601/d6a768e2-2bb9-428d-b2df-228923ebb089)
+
+
+
+         
+
+         
+
 
 
 
