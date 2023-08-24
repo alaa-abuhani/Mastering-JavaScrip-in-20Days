@@ -4,7 +4,7 @@
 * Block scope
 * Function scope
 * Global scope
-# ${This\ is\ a\ {\color{red}Big}}\ Title$
+# ${ {\color{red}Big}}\$
 
 
 ### having two variables at different scopes of the same name, that has a term, it's called shadowing.
