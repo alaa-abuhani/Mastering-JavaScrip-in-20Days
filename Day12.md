@@ -81,6 +81,9 @@ console.log(x == v); //true
 ![image](https://github.com/alaa-abuhani/Mastering-JavaScript-in-20Days/assets/65255601/9b1b0dac-4281-438f-baa8-82eacb323479)
 
 
+![image](https://github.com/alaa-abuhani/Mastering-JavaScript-in-20Days/assets/65255601/dada8f6d-5f61-404c-83e0-d5df5a093fa2)
+
+
 
 
 
