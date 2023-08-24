@@ -13,6 +13,14 @@
 }
 // x can NOT be used here
 ```
+* Variables declared with the var keyword can NOT have block scope.
+* Variables declared inside a { } block can be accessed from outside the block.
+```
+{
+  var x = 2;
+}
+// x CAN be used here
+```
 
 ### having two variables at different scopes of the same name, that has a term, it's called shadowing.
 ### Variable Shadowing happens when a variable in an inner scope is declared with the same name as a variable in the outer scope. In this case, the variable in the inner scope shadows (masks) the variable in the outer 
