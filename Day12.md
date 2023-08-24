@@ -84,6 +84,12 @@ console.log(x == v); //true
 ![image](https://github.com/alaa-abuhani/Mastering-JavaScript-in-20Days/assets/65255601/dada8f6d-5f61-404c-83e0-d5df5a093fa2)
 
 ![image](https://github.com/alaa-abuhani/Mastering-JavaScript-in-20Days/assets/65255601/a51c0325-bf28-4c3f-a213-53e107e43096)
+![image](https://github.com/alaa-abuhani/Mastering-JavaScript-in-20Days/assets/65255601/39e394f2-90e5-4d79-b9b2-229569af6590)
+![image](https://github.com/alaa-abuhani/Mastering-JavaScript-in-20Days/assets/65255601/ee09812b-5ad1-4204-ae95-9aa56b54fecc)
+![image](https://github.com/alaa-abuhani/Mastering-JavaScript-in-20Days/assets/65255601/360841a6-1164-4f1e-8509-d30d4d4bed9d)
+
+
+
 
 
 QUESTION #1 :
