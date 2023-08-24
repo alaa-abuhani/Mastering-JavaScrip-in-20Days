@@ -78,6 +78,11 @@ console.log(x == v); //true
 
 
 
+![image](https://github.com/alaa-abuhani/Mastering-JavaScript-in-20Days/assets/65255601/9b1b0dac-4281-438f-baa8-82eacb323479)
+
+
+
+
 
 
 
