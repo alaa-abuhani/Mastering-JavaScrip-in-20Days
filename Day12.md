@@ -83,6 +83,24 @@ console.log(x == v); //true
 
 ![image](https://github.com/alaa-abuhani/Mastering-JavaScript-in-20Days/assets/65255601/dada8f6d-5f61-404c-83e0-d5df5a093fa2)
 
+QUESTION #1 :
+What will be the output of the following code sni
+What will be the output of the following code snippet? Pick the right choice then justify your answer with an explanation.
+```
+function testScope1() {
+  if (true) {
+    var a = 1;
+    let b = 2;
+    const c = 3;
+  }
+  console.log(a);
+  console.log(b);
+  console.log(c);
+}
+
+testScope1();
+```
+
 
 
 
