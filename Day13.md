@@ -144,6 +144,8 @@ function myFunction() {
 ```
 * A reference error is, I couldn't find that variable, I can't give you a variable to use, 
 
+example :
+
 ![image](https://github.com/alaa-abuhani/Mastering-JavaScript-in-20Days/assets/65255601/b78fefaf-8fd1-4b8c-8188-edfe9458fbe9)
 
 
