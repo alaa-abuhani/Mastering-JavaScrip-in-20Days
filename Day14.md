@@ -23,5 +23,6 @@ When foo() cannot resolve the variable reference for a, instead of stepping up t
 chain, it walks up the call-stack, to find where foo() was called from. Since foo() was called from bar() it checks the variables in scope
 
  for bar(), and finds an a there with value 3.
+
 my refernce (https://medium.com/@osmanakar_65575/javascript-lexical-and-dynamic-scoping-72c17e4476dd)
 
