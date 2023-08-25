@@ -4,6 +4,7 @@ What is author-time?
 This is the time that when developer writes the code. This can be taken to mean, perception of program as you see it before compilation.
 example :
 ![image](https://github.com/alaa-abuhani/Mastering-JavaScript-in-20Days/assets/65255601/8dcdda10-4685-49da-9a8f-063b6975ed17)
+
 There are three nested scopes inherent in this code example
 * Bubble 1 encompasses the global scope, and has just one identifier in it: foo.
 * Bubble 2 encompasses the scope of foo, which includes the three identifiers: a, bar, b.
@@ -22,4 +23,5 @@ When foo() cannot resolve the variable reference for a, instead of stepping up t
 chain, it walks up the call-stack, to find where foo() was called from. Since foo() was called from bar() it checks the variables in scope
 
  for bar(), and finds an a there with value 3.
+my refernce (https://medium.com/@osmanakar_65575/javascript-lexical-and-dynamic-scoping-72c17e4476dd)
 
