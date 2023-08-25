@@ -30,6 +30,9 @@ function myFunction() {
 }
 // code here can NOT use carName
 ```
+#### Local variables have Function Scope: They can only be accessed from within the function.
+ * Local variables are created when a function starts, and deleted when the function is completed.
+
 
 
 ### having two variables at different scopes of the same name, that has a term, it's called shadowing.
