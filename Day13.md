@@ -147,6 +147,7 @@ function myFunction() {
 example :
 
 ![image](https://github.com/alaa-abuhani/Mastering-JavaScript-in-20Days/assets/65255601/b78fefaf-8fd1-4b8c-8188-edfe9458fbe9)
+* variable topic cause reference error
 
 
 
