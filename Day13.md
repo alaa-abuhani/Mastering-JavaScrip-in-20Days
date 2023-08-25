@@ -21,6 +21,16 @@
 }
 // x CAN be used here
 ```
+#### Local Scope : Variables declared within a JavaScript function, become LOCAL to the function.
+```
+// code here can NOT use carName
+function myFunction() {
+  let carName = "Volvo";
+  // code here CAN use carName
+}
+// code here can NOT use carName
+```
+
 
 ### having two variables at different scopes of the same name, that has a term, it's called shadowing.
 ### Variable Shadowing happens when a variable in an inner scope is declared with the same name as a variable in the outer scope. In this case, the variable in the inner scope shadows (masks) the variable in the outer 
