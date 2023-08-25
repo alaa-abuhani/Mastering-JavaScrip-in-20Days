@@ -82,6 +82,21 @@ const x = 2;       // Global scope
 * In JavaScript, objects and functions are also variables.
 * Scope determines the accessibility of variables, objects, and functions from different parts of the code.
 
+### Automatically Global
+ * If you assign a value to a variable that has not been declared, it will automatically become a GLOBAL variable.
+ * global variable carName, even if the value is assigned inside a function.
+* This code example will declare a global variable carName, even if the value is assigned inside a function.
+```
+myFunction();
+
+// code here can use carName
+
+function myFunction() {
+  carName = "Volvo";
+}
+```
+
+
 
 
 
