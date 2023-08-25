@@ -166,7 +166,9 @@ example :
 
 - ask() invoked in globale scope  cause reference error
 
-
+####  undefined versus undeclared:
+* undeclared doesn't exist
+* undefine definitely it does exist, but doesn't have a value
 
 
 
