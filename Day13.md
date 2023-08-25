@@ -99,8 +99,8 @@ function myFunction() {
 
 ![image](https://github.com/alaa-abuhani/Mastering-JavaScript-in-20Days/assets/65255601/7ad7dfb0-3e3a-46e4-8164-d5e32d5159a2)
 
-* variable teacher in the function it is global and change the value to Suzy 
-* variable topic in the function it is global 
+* variable teacher in the function it is Automatically Global and change the value to Suzy 
+* variable topic in the function it is Automatically Global
 
 
 
