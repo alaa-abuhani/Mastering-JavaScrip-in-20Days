@@ -166,6 +166,10 @@ example :
 
 - ask() invoked in globale scope  cause reference error
 
+![image](https://github.com/alaa-abuhani/Mastering-JavaScript-in-20Days/assets/65255601/ab8ac818-a52c-4d4a-9833-cf39066e5d30)
+
+
+
 ####  undefined versus undeclared:
 * undeclared doesn't exist
 * undefine definitely it does exist, but doesn't have a value
