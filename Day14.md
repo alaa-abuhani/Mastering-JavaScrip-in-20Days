@@ -2,11 +2,19 @@
 ( where variables and blocks of scope are authored)
 What is author-time?
 This is the time that when developer writes the code. This can be taken to mean, perception of program as you see it before compilation.
+example :
+![image](https://github.com/alaa-abuhani/Mastering-JavaScript-in-20Days/assets/65255601/8dcdda10-4685-49da-9a8f-063b6975ed17)
+There are three nested scopes inherent in this code example
+* Bubble 1 encompasses the global scope, and has just one identifier in it: foo.
+* Bubble 2 encompasses the scope of foo, which includes the three identifiers: a, bar, b.
+* Bubble 3 encompasses the scope of bar, and it includes just one identifier: c.
+
+
 
 #### dynamic scoping : uses the location of the function's invocation to determine which variables are available.
 (Dynamic scope does not concern itself with how and where functions and scopes are declared, but rather where they are called from. That means that, the scope chain is based on call-stack, not the nesting of scopes in code.)
 
-example  when foo() is executed, theoretically the code below would result 3 as the output,
+example : when foo() is executed, theoretically the code below would result 3 as the output,
 ![image](https://github.com/alaa-abuhani/Mastering-JavaScript-in-20Days/assets/65255601/0885956f-7f8d-48b5-a1f8-5de3fe4b4c0d)
 When foo() cannot resolve the variable reference for a, instead of stepping up the nested (lexical scope — we will mention soon) scope 
 
