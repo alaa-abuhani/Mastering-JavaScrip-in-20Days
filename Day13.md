@@ -95,6 +95,7 @@ function myFunction() {
   carName = "Volvo";
 }
 ```
+### Strict Mode : undeclared variables are not automatically global.
 
 
 
