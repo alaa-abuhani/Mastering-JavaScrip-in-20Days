@@ -176,9 +176,13 @@ example :
 #### that in a lexically scoped language which JavaScript is all of the scopes that we're dealing with, all of the lexical scopes and identifiers, that's all determined at compile time. It's not determined at run time. It is used at run time, but it is determined at compile time.
 ### Lexical scope is the ability for a function scope to access variables from the parent scope
 ![image](https://github.com/alaa-abuhani/Mastering-JavaScript-in-20Days/assets/65255601/914a2a22-0488-4fd5-b329-beef2ace506b)
+
 example :
+
 ![image](https://github.com/alaa-abuhani/Mastering-JavaScript-in-20Days/assets/65255601/bec555f3-6309-4cd3-a3e7-5caccdfa395d)
+
 output:
+
 ![image](https://github.com/alaa-abuhani/Mastering-JavaScript-in-20Days/assets/65255601/9ae029eb-d403-4647-a806-c0bc3d516161)
 
 
