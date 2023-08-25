@@ -191,7 +191,7 @@ output:
 
 ![image](https://github.com/alaa-abuhani/Mastering-JavaScript-in-20Days/assets/65255601/d6f3512f-f6a7-401f-9f20-517d54f3a09e)
 
-*This idea of scopes being nested within each other is similar to a building with a big tall elevator in it ; if you went into a building and you were looking for something but you didn't know where it was.
+* This idea of scopes being nested within each other is similar to a building with a big tall elevator in it ; if you went into a building and you were looking for something but you didn't know where it was.
 
 * the first floor is our current scope where the reference is, and the top floor is the global scope.
 * this idea of going one floor up at a time. We don't immediately jump to the global scope, we just go one floor at a time.
