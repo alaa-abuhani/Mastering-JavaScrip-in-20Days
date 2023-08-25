@@ -38,6 +38,9 @@ solve overlapping with scop function :
 
 ![image](https://github.com/alaa-abuhani/Mastering-JavaScript-in-20Days/assets/65255601/269616a6-b3be-4cb4-a826-251702514552)
 
+![image](https://github.com/alaa-abuhani/Mastering-JavaScript-in-20Days/assets/65255601/bc308390-6cfa-472a-ab1e-771a62cc8850)
+
+
 #### IIEF : immediately invoked function expressions 
  * Self-Invoking Functions || When a function is created at the same time it is called,
 
@@ -50,6 +53,18 @@ OR
 (() => {})()
 
 ```
+![image](https://github.com/alaa-abuhani/Mastering-JavaScript-in-20Days/assets/65255601/a20d10b8-c503-44bd-8c39-6257806c09d2)
+
+![image](https://github.com/alaa-abuhani/Mastering-JavaScript-in-20Days/assets/65255601/1ab33017-841c-498d-a9ed-cf8773ebf210)
+
+![image](https://github.com/alaa-abuhani/Mastering-JavaScript-in-20Days/assets/65255601/9066efe6-4642-4947-bb0e-0c27152e7761)
+
+![image](https://github.com/alaa-abuhani/Mastering-JavaScript-in-20Days/assets/65255601/840227fb-45bf-4503-80bd-e99d817b2b20)
+
+
+
+
+
 
 
 
