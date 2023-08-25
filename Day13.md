@@ -229,6 +229,12 @@ console.log(anotherTeacher);	// reference error it  no reference in the global s
 ```
 
 ### Arrow functions:
+* Arrow functions were introduced in ES6.
+* Arrow functions allow us to write shorter function syntax
+```
+let myFunction = (a, b) => a * b;
+```
+
 
 
 
