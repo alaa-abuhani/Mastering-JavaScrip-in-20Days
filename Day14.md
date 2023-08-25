@@ -38,5 +38,21 @@ solve overlapping with scop function :
 
 ![image](https://github.com/alaa-abuhani/Mastering-JavaScript-in-20Days/assets/65255601/269616a6-b3be-4cb4-a826-251702514552)
 
+#### IIEF : immediately invoked function expressions 
+ * Self-Invoking Functions || When a function is created at the same time it is called,
+syntax :
+```
+(function() => {})()
+```
+OR 
+```
+(() => {})()
+
+```
+
+
+
+
+
 
 
