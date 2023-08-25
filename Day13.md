@@ -156,11 +156,16 @@ example :
 ### nested scope 
 * JavaScript allows us to nest functions:
 - we can access variables from their direct scope (the scope where they get declared). We can also access variables from their inner scopes (the scopes that nest within their direct scope). That is, we can access variables from the scope they get declared in and from every inner scope.
+
 example :
+
 ![image](https://github.com/alaa-abuhani/Mastering-JavaScript-in-20Days/assets/65255601/48f14327-4a15-48f9-805d-b8da6d61ad55) 
 
+
 - ask() inner function declared in OtherClass () function 
+
 - ask() invoked in globale scope  cause reference error
+
 
 
 
