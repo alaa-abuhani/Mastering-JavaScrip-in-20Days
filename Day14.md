@@ -26,3 +26,13 @@ chain, it walks up the call-stack, to find where foo() was called from. Since fo
 
 my refernce (https://medium.com/@osmanakar_65575/javascript-lexical-and-dynamic-scoping-72c17e4476dd)
 
+### function scope :
+example :overlaping name variables 
+![image](https://github.com/alaa-abuhani/Mastering-JavaScript-in-20Days/assets/65255601/08b7a538-aebd-4c55-98ab-ea741242e8db)
+
+solve overlapping with scop function :
+
+![image](https://github.com/alaa-abuhani/Mastering-JavaScript-in-20Days/assets/65255601/269616a6-b3be-4cb4-a826-251702514552)
+
+
+
