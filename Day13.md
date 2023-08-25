@@ -53,6 +53,16 @@ function myFunction() {
   const carName = "Volvo";   // Function Scope
 }
 ```
+### Global JavaScript Variables : A variable declared outside a function, becomes GLOBAL.
+```
+let carName = "Volvo";
+// code here can use carName
+
+function myFunction() {
+// code here can also use carName
+}
+```
+* A global variable has Global Scope: All scripts and functions on a web page can access it. 
 
 
 
