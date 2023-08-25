@@ -214,6 +214,19 @@ var keyHandler=function keyHandler(){
 };
 
 ```
+example :
+
+```
+function teacher(){}
+var myTeacher = function anotherTeacher(){
+console.log(anotherTeacher);
+};
+console.log(teacher); //  output ƒ teacher(){}
+
+console.log(myTeacher); // output  ƒ anotherTeacher(){}
+
+console.log(anotherTeacher);	// reference error it  no reference in the global scope.
+```
 
 ### Arrow functions:
 
