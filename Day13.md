@@ -131,8 +131,12 @@ function myFunction() {
 
 
 ### shadowing :having two variables at different scopes of the same name, that has a term .
-* Variable Shadowing happens when a variable in an inner scope is declared with the same name as a variable in the outer scope. In this case, the variable in the inner scope shadows (masks) the variable in the outer 
+* Variable Shadowing happens when a variable in an inner scope is declared with the same name as a variable in the outer scope. In this case, the variable in the inner scope shadows (masks) the variable in the outer
+* example :
 ![image](https://github.com/alaa-abuhani/Mastering-JavaScript-in-20Days/assets/65255601/39008554-5308-4690-8076-602bed7d7943)
+* teacher in globale scope is : Kyle
+* teacher in local scope is   : Suzy
+* variables in local scope do not change the value of variable in globale scope
 
 
 
