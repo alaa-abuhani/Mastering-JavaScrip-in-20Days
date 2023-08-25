@@ -41,7 +41,7 @@ solve overlapping with scop function :
 ![image](https://github.com/alaa-abuhani/Mastering-JavaScript-in-20Days/assets/65255601/bc308390-6cfa-472a-ab1e-771a62cc8850)
 
 
-#### IIEF : immediately invoked function expressions 
+### IIEF : immediately invoked function expressions 
  * Self-Invoking Functions || When a function is created at the same time it is called,
 
 syntax :
@@ -60,6 +60,9 @@ OR
 ![image](https://github.com/alaa-abuhani/Mastering-JavaScript-in-20Days/assets/65255601/9066efe6-4642-4947-bb0e-0c27152e7761)
 
 ![image](https://github.com/alaa-abuhani/Mastering-JavaScript-in-20Days/assets/65255601/840227fb-45bf-4503-80bd-e99d817b2b20)
+
+###block scope :
+A block scope is the area within if, switch conditions or for and while loops. Generally speaking, whenever you see {curly brackets}, it is a block. In ES6, const and let keywords allow developers to declare variables in the block scope, which means those variables exist only within the corresponding block.
 
 
 
