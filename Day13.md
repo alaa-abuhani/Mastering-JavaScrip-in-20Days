@@ -122,7 +122,7 @@ function myFunction() {
   y = 3.14;   // This will cause an error
 }
 ```
-
+* A reference error is, I couldn't find that variable, I can't give you a variable to use, 
 
 
 
