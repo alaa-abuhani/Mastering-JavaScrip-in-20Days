@@ -33,6 +33,11 @@ function myFunction() {
 #### Local variables have Function Scope: They can only be accessed from within the function.
  * Local variables are created when a function starts, and deleted when the function is completed.
 
+### Function Scope:
+* JavaScript has function scope: Each function creates a new scope.
+* Variables defined inside a function are not accessible (visible) from outside the function.
+* Variables declared with var, let and const are quite similar when declared inside a function. They all have Function Scope:
+
 
 
 ### having two variables at different scopes of the same name, that has a term, it's called shadowing.
