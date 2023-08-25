@@ -95,7 +95,25 @@ function myFunction() {
   carName = "Volvo";
 }
 ```
-### Strict Mode : undeclared variables are not automatically global.
+## Strict Mode 
+*  Strict Mode : undeclared variables are not automatically global.
+* "use strict"; Defines that JavaScript code should be executed in "strict mode".
+* Strict mode is declared by adding "use strict"; to the beginning of a script or a function.
+* Declared at the beginning of a script, it has global scope (all code in the script will execute in strict mode):
+```
+"use strict";
+ x = 3.14;       // This will cause an error because x is not declared
+```
+```
+"use strict";
+myFunction();
+
+function myFunction() {
+  y = 3.14;   // This will also cause an error because y is not declared
+}
+```
+
+
 
 
 
