@@ -40,6 +40,7 @@ solve overlapping with scop function :
 
 #### IIEF : immediately invoked function expressions 
  * Self-Invoking Functions || When a function is created at the same time it is called,
+
 syntax :
 ```
 (function() => {})()
