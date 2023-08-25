@@ -200,5 +200,7 @@ output:
 * the first floor is our current scope where the reference is, and the top floor is the global scope.
 * this idea of going one floor up at a time. We don't immediately jump to the global scope, we just go one floor at a time.
 
+### Function Expressions
+
 
 
