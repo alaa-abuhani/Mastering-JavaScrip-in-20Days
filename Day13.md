@@ -64,6 +64,22 @@ function myFunction() {
 ```
 * A global variable has Global Scope: All scripts and functions on a web page can access it. 
 
+### Global Scope :
+* Variables declared Globally (outside any function) have Global Scope.
+* Global variables can be accessed from anywhere in a JavaScript program.
+* Variables declared with var, let and const are quite similar when declared outside a block.
+- They all have Global Scope:
+```
+var x = 2;       // Global scope
+```
+```
+let x = 2;       // Global scope
+```
+```
+const x = 2;       // Global scope
+```
+
+
 
 
 ### having two variables at different scopes of the same name, that has a term, it's called shadowing.
