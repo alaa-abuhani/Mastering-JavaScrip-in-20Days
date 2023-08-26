@@ -95,6 +95,17 @@ elem.innerHTML = x;                     // Display x in the element
 * Meaning: The block of code is aware of the variable, but it cannot be used until it has been declared.
 * Using a let variable before it is declared will result in a ReferenceError.
 * The variable is in a "temporal dead zone" from the start of the block until it is declared:
+- Example : This will result in a ReferenceError:
+
+```
+carName = "Volvo";
+let carName;
+```
+- Example : This code will not run.
+```
+carName = "Volvo";
+const carName;
+```
 
 
 
