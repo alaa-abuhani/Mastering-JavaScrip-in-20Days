@@ -64,7 +64,7 @@ OR
 ### block scope :
 A block scope is the area within if, switch conditions or for and while loops. Generally speaking, whenever you see {curly brackets}, it is a block. In ES6, const and let keywords allow developers to declare variables in the block scope, which means those variables exist only within the corresponding block.
 
-#### Hoisting : is JavaScript's default behavior of moving declarations to the top.
+### Hoisting : is JavaScript's default behavior of moving declarations to the top.
 #### JavaScript Declarations are Hoisted
 * JavaScript Declarations are Hoisted
 * In JavaScript, a variable can be declared after it has been used.
