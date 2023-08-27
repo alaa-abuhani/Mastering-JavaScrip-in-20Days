@@ -61,6 +61,15 @@ let length = fruits.push("Kiwi"); // 5
 const fruits = ["Banana", "Orange", "Apple", "Mango"];
 let fruit = fruits.shift();
 ```
+* JavaScript Array unshift() :The unshift() method adds a new element to an array (at the beginning), and "unshifts" older elements &
+The unshift() method returns the new array length:
+example :
+```
+const fruits = ["Banana", "Orange", "Apple", "Mango"];
+fruits.unshift("Lemon");
+```
+
+
 
 
 * immutable variables can assign to mutable value
