@@ -16,6 +16,15 @@ object :
 - object 
 - array subtype of object
 
+#### BigInt : variables are used to store big integer values that are too big to be represented by a normal JavaScript Number.
+* to create a BigInt, append n to the end of an integer or call BigInt():
+example :
+```
+let x = 123456789012345678901234567890n;
+let y = BigInt("123456789012345678901234567890");
+```
+
+
 #### The typeof Operator
 
 Any value's value-type can be inspected via the typeof operator, which always returns a string value representing the underlying JS value-type:
