@@ -50,8 +50,11 @@ JavaScript Array push() : The push() method adds a new element to an array (at t
 const fruits = ["Banana", "Orange", "Apple", "Mango"];
 fruits.push("Kiwi");
 ```
-
-
+* The push() method returns the new array length:
+```
+const fruits = ["Banana", "Orange", "Apple", "Mango"];
+let length = fruits.push("Kiwi"); // 5
+```
 
 
 * immutable variables can assign to mutable value
