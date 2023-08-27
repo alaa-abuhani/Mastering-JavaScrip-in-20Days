@@ -39,6 +39,13 @@ example :
 const fruits = ["Banana", "Orange", "Apple"];
 fruits.push("Lemon");  // Adds a new element (Lemon) to fruits
 ```
+* JavaScript Array pop() : The pop() method removes the last element from an array
+* The pop() method returns the value that was "popped out" 
+```
+const fruits = ["Banana", "Orange", "Apple", "Mango"];
+let fruit = fruits.pop();
+```
+
 
 
 
