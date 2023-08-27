@@ -48,7 +48,11 @@ typeof {name:'John', age:34} // Returns "object"
 typeof [1,2,3,4]             // Returns "object" (not "array")
 typeof null                  // Returns "object"
 typeof function myFunc(){}   // Returns "function"
+
+let x = BigInt(999999999999999);
+let type = typeof x; // Returns BigInt
 ```
+
 ##### The typeof operator returns "object" for arrays because in JavaScript arrays are objects.
 
 - you can check if the object is an Array function:
