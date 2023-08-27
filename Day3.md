@@ -55,6 +55,12 @@ fruits.push("Kiwi");
 const fruits = ["Banana", "Orange", "Apple", "Mango"];
 let length = fruits.push("Kiwi"); // 5
 ```
+* Shifting Elements : The shift() method removes the first array element and "shifts" all other elements to a lower index. & he shift() method returns the value that was "shifted out":
+
+```
+const fruits = ["Banana", "Orange", "Apple", "Mango"];
+let fruit = fruits.shift();
+```
 
 
 * immutable variables can assign to mutable value
