@@ -33,6 +33,13 @@ function myFunction(value) {
   text += "<li>" + value + "</li>";
 }
 ```
+* Adding Array Elements : the easiest way to add a new element to an array is using the push() method
+example :
+```
+const fruits = ["Banana", "Orange", "Apple"];
+fruits.push("Lemon");  // Adds a new element (Lemon) to fruits
+```
+
 
 
 * immutable variables can assign to mutable value
