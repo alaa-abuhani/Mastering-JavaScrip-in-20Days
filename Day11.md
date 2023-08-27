@@ -95,6 +95,19 @@ isNaN("my son age");    // true
 #### the type of a NaN is number. It's just an invalid number.
 
 ### The Number() method converts a value to a number.
+* The Number() method can be used to convert JavaScript variables to numbers:
+```
+  Number(true)     // 1
+  Number(false)    //0
+  Number("10")     //10
+  Number("  10")   //10
+  Number("10  ")   //10
+  Number(" 10  ")  //10
+  Number("10.33")  //10.33
+  Number("10,33")  //NaN
+  Number("10 33")  //NaN
+  Number("John")   //NaN
+```
 - If the value cannot be converted, NaN is returned.
 ##### Notes
 - For booleans, Number() returns 0 or 1.
