@@ -14,6 +14,12 @@
 * javascript have object data type and array is special kind of object
 
 * object and array mutable
+ * An array is a special variable, which can hold more than one value:
+
+example :
+```
+const cars = ["Saab", "Volvo", "BMW"];
+```
 
 * immutable variables can assign to mutable value
 
