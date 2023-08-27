@@ -45,6 +45,11 @@ fruits.push("Lemon");  // Adds a new element (Lemon) to fruits
 const fruits = ["Banana", "Orange", "Apple", "Mango"];
 let fruit = fruits.pop();
 ```
+JavaScript Array push() : The push() method adds a new element to an array (at the end)
+```
+const fruits = ["Banana", "Orange", "Apple", "Mango"];
+fruits.push("Kiwi");
+```
 
 
 
