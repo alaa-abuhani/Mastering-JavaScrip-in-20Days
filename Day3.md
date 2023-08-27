@@ -20,6 +20,20 @@ example :
 ```
 const cars = ["Saab", "Volvo", "BMW"];
 ```
+* Looping Array Elements : use the Array.forEach() function
+* example : 
+```
+const fruits = ["Banana", "Orange", "Apple", "Mango"];
+
+let text = "<ul>";
+fruits.forEach(myFunction);
+text += "</ul>";
+
+function myFunction(value) {
+  text += "<li>" + value + "</li>";
+}
+```
+
 
 * immutable variables can assign to mutable value
 
