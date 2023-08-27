@@ -112,8 +112,9 @@ function myFunction() {
 ![image](https://github.com/alaa-abuhani/Mastering-JavaScript-in-20Days/assets/65255601/39008554-5308-4690-8076-602bed7d7943)
 
 * teacher in globale scope is : Kyle
-* teacher in local scope is   : Suzy
-* variables in local scope do not change the value of variable in globale scope
+* teacher in function scope is   : Suzy
+* variables in function scope do not change the value of variable in globale scope 
+* var , let ,const having function scope
 
 ## Strict Mode 
 *  Strict Mode : undeclared variables are not automatically global.
