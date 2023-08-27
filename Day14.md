@@ -108,6 +108,8 @@ let carName;
 carName = "Volvo";
 const carName;
 ```
+lets and consts only hoist to a block ||  vars hoist to a function
+
 
 
 
