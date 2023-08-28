@@ -15,9 +15,13 @@ person.lastName = "Doe";
 
 - Define an object constructor, and then create objects of the constructed type.
 ```
-const o = new Object();
-o.foo = 42;
-console.log(o);// { foo: 42 }
+function Person(first, last, age, eye) {
+  this.firstName = first;
+  this.lastName = last;
+  this.age = age;
+  this.eyeColor = eye;
+}
+const myFather = new Person("John", "Doe", 50, "blue");
 ```
 
 - Create an object using Object.create()
