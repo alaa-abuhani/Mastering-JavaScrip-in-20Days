@@ -69,6 +69,20 @@ Person.prototype.name = function() {
   return this.firstName + " " + this.lastName;
 };
  ```
+### Class Syntax :
+
+* Use the keyword class to create a class.
+* Always add a method named constructor()
+Example :
+ ```
+class Car {
+  constructor(name, year) {
+    this.name = name;
+    this.year = year;
+  }
+}
+
+ ```
 
 
 
