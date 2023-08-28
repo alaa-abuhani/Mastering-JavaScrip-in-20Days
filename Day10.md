@@ -87,14 +87,13 @@ class Car {
 * A JavaScript class is not an object.
 * It is a template for JavaScript objects
 * Using a Class : use the class to create objects:
-Example
+Example : 
+* creates a class named "Car". The class has two initial properties: "name" and "year".
  ```
 const myCar1 = new Car("Ford", 2014);
 const myCar2 = new Car("Audi", 2019);
  ```
 
-
-* 
 
 
 
